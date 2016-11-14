@@ -1,0 +1,67 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+# An example controller showing a sample home page
+
+
+
+
+GET     /                           controllers.HomeController.index()
+# An example controller showing how to use dependency injection
+POST      /guest                     controllers.HomeController.guestPage
+GET     /count                      controllers.CountController.count
+# An example controller showing how to write asynchronous code
+GET     /message                    controllers.AsyncController.message
+
+# Map static resources from the /public folder to the /assets URL path
+GET     /assets/*file               controllers.Assets.versioned(path="/public", file: Asset)
+
+POST /homePage controllers.HomeController.formData
+
+POST /confirmation controllers.GuestPreferences.GuestPreferenceRedirect
+
+POST /GuestDetails controllers.GuestPreferences.GuestRoomAllocation
+
+
+
+POST /admin                     controllers.AdminHomeController.adminRedirect
+
+POST /AssignWaiter                       controllers.AssignWaiterController.updateRoomWaiter
+
+POST /AddRoom                          controllers.AdminRoomController.addRoomButton
+
+POST /AddRoomType                       controllers.AdminRoomTypeController.addNewRoomType
+
+POST /NewRoom                           controllers.AdminRoomTypeController.createRoom
+
+
+POST /CreateRoom                        controllers.AdminRoomController.createRoom
+
+
+GET     /Home                   controllers.RedirectionController.redirectHome
+
+GET     /Guest                  controllers.RedirectionController.redirectGuest
+
+GET     /Admin                  controllers.RedirectionController.redirectAdmin
+
+POST    /CheckAdmin             controllers.AdminHomeController.checkAdmin
+
+GET     /AdminAddWaiter         controllers.RedirectionController.redirectAdminWaiter
+
+
+GET     /AdminRooms         controllers.RedirectionController.redirectAdminAddRoom
+
+
+GET     /AdminRoomTypes         controllers.RedirectionController.redirectAdminAddRoomType
+
+GET     /GuestBookRoom          controllers.RedirectionController.redirectBookRoom
+
+GET     /BookingStatus          controllers.RedirectionController.redirectBookingStatus
+
+
+
+
+
+
+

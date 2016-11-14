@@ -1,0 +1,11 @@
+2016-08-03 00:14:15,348 [INFO] from play.core.server.NettyServer in pool-4-thread-2 - Listening for HTTP on /0:0:0:0:0:0:0:0:9000
+2016-08-03 00:14:58,834 [WARN] from application in ForkJoinPool-1-worker-1 - application.conf @ file:/V:/HotelManagementApplication/target/scala-2.11/classes/application.conf: 353: user is deprecated, use username instead
+2016-08-03 00:14:58,851 [INFO] from application in ForkJoinPool-1-worker-1 - Creating Pool for datasource 'default'
+2016-08-03 00:14:59,124 [INFO] from play.api.db.DefaultDBApi in ForkJoinPool-1-worker-1 - Database [default] connected at jdbc:mysql://localhost/DB05_Test?characterEncoding=UTF-8
+2016-08-03 00:14:59,517 [WARN] from com.avaje.ebeaninternal.server.deploy.BeanDescriptorManager in ForkJoinPool-1-worker-1 - Bean [models.Occupancy] has no unique id set
+2016-08-03 00:14:59,519 [WARN] from com.avaje.ebeaninternal.server.deploy.BeanDescriptorManager in ForkJoinPool-1-worker-1 - Bean [models.GuestRoomMapping] has no unique id set
+2016-08-03 00:14:59,849 [INFO] from application in ForkJoinPool-1-worker-1 - ApplicationTimer demo: Starting application at 2016-08-03T04:14:59.847Z
+2016-08-03 00:15:00,151 [INFO] from play.api.Play in ForkJoinPool-1-worker-1 - Application started (Dev)
+2016-08-03 01:43:48,365 [WARN] from com.zaxxer.hikari.pool.HikariPool in Hikari housekeeper (pool HikariPool-0) - HikariPool-0 - Unusual system clock change detected, soft-evicting connections from pool.
+2016-08-03 04:54:29,937 [WARN] from com.zaxxer.hikari.pool.HikariPool in Hikari housekeeper (pool HikariPool-0) - HikariPool-0 - Unusual system clock change detected, soft-evicting connections from pool.
+2016-08-03 08:24:01,127 [WARN] from com.zaxxer.hikari.pool.HikariPool in Hikari housekeeper (pool HikariPool-0) - HikariPool-0 - Unusual system clock change detected, soft-evicting connections from pool.
